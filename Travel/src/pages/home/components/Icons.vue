@@ -1,6 +1,6 @@
 <template>
   <swiper :options="swiperOption">
-    <swiper-slide v-for="( page,index) of Mypages" :key="index">
+    <swiper-slide v-for="(page,key) in pages" :key="key">
       <div class="icons">
         <div class="icon" v-for="item in page" :key="item.id">
           <div class="icon-img">
@@ -22,39 +22,39 @@ export default {
       },
       iconList: [
         {
-          id: '0001',
+          id: '123',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
           desc: '景点门票'
         }, {
-          id: '0002',
+          id: '124',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png',
           desc: '一日游'
         }, {
-          id: '0003',
+          id: '1235',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png',
           desc: '北京必游'
         }, {
-          id: '0004',
+          id: '391',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png',
           desc: '溜娃儿'
         }, {
-          id: '0005',
+          id: '159',
           imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png',
           desc: '爬长城'
         }, {
-          id: '0006',
+          id: '758',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png',
           desc: '故宫'
         }, {
-          id: '0007',
+          id: '951',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png',
           desc: '茶馆相声'
         }, {
-          id: '0008',
+          id: '487',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png',
           desc: '北京滑雪'
         }, {
-          id: '0009',
+          id: '635',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png',
           desc: '动植物园'
         }
@@ -62,17 +62,16 @@ export default {
     }
   },
   computed: {
-    Mypages: function () {
-      const pages = []
-      this.iconList.forEach((item, index) => {
-        const page = Math.floor(index / 8)
-        if (!pages[page]) {
-          pages[page] = []
+    pages: function () {
+      const res = []
+      for (let i in this.iconList) {
+        const k = Math.floor(i / 8)
+        if (!res[k]) {
+          res[k] = []
         }
-        console.log(pages)
-        pages[page].push(item)
-      })
-      return pages
+        res[k].push(this.iconList[i])
+      }
+      return res
     }
   }
 }
