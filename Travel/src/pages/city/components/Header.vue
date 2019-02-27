@@ -5,7 +5,7 @@
         <div class="iconfont back-icon">&#xe606;</div>
       </div>
     </router-link>
-    城市选择
+    选择城市
   </div>
 </template>
 

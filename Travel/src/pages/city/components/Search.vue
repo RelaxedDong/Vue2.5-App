@@ -4,8 +4,11 @@
       <input type="text" v-model="keyword" class="search-input" placeholder="输入城市名或拼音">
     </div>
     <div class="search-content" ref="search" v-show="keyword">
+      <!--双向绑定keyword-->
       <ul>
-        <li class="search-item border-bottom" v-for="(city,index) in cityList" :key="index">{{city}}</li>
+        <!--遍历找到的城市-->
+        <li class="search-item border-bottom" v-for="(city,index) in cityList" :key="index" @click="HandleCity(city)">{{city}}</li>
+        <!--没有找到时的显示-->
         <li class="search-item border-bottom" v-show="hasCity">
           没有找到匹配数据
         </li>
@@ -15,14 +18,28 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import BScroll from 'better-scroll'
 export default {
   name: 'CitySearch',
   props: ['cities'],
+  methods: {
+    HandleCity (value) {
+      // this.$store.commit('citychanged', value)
+      this.citychanged(value)
+      this.$router.push('/')
+    },
+    ...mapMutations([
+      'citychanged'
+    ])
+  },
   data: function () {
     return {
+      // 关键字
       keyword: '',
+      // 城市列表
       cityList: [],
+      // 函数节流
       timer: null
     }
   },

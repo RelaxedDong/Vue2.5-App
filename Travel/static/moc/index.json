@@ -1,0 +1,247 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [
+      "http://img1.qunarzz.com/piao/fusion/1805/77/f63bd04dd5319602.jpg_750x200_6ba8e0ca.jpg",
+      "http://img1.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg",
+      "http://img1.qunarzz.com/piao/fusion/1804/84/6334efc67b637902.jpg_750x200_598f99fc.jpg",
+      "http://img1.qunarzz.com/piao/fusion/1804/e5/82b53c47166cfc02.jpg_750x200_0d3a0066.jpg",
+      "http://img1.qunarzz.com/piao/fusion/1804/b7/c500761d01694702.jpg_750x200_a2922234.jpg"
+    ],
+    "iconList": [
+      {
+        "title": "景点门票",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+      },
+      {
+        "title": "一日游",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png"
+      },
+      {
+        "title": "本地玩乐",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/f5/a963333e1fa802.png"
+      },
+      {
+        "title": "动植物园",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
+      },
+      {
+        "title": "必游榜单",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png"
+      },
+      {
+        "title": "自然风光",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png"
+      },
+      {
+        "title": "海滨海岛",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/27/dac2bcf9added702.png"
+      },
+      {
+        "title": "踏青赏花",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png"
+      },
+      {
+        "title": "城市观光",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png"
+      },
+      {
+        "title": "全部玩乐",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png"
+      }
+    ],
+    "hotList": [
+      {
+        "title": "大连森林动物园",
+        "price": "￥58",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_150x150_88ed4437.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "price": "￥25",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_150x150_2c4b6f2f.jpg"
+      },
+      {
+        "title": "老虎滩海洋公园",
+        "price": "￥50",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1602/39/39f6b1003abe1b2790.img.jpg_150x150_a9877501.jpg"
+      },
+      {
+        "title": "旅顺203樱花园",
+        "price": "￥218",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1804/a2/a2a3dd4f0bf42f4da3.img.jpg_150x150_e9128a33.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "price": "￥60",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_150x150_f3152ca6.jpg"
+      },
+      {
+        "title": "大连森林动物园",
+        "price": "￥58",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_150x150_88ed4437.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "price": "￥25",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_150x150_2c4b6f2f.jpg"
+      },
+      {
+        "title": "老虎滩海洋公园",
+        "price": "￥50",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1602/39/39f6b1003abe1b2790.img.jpg_150x150_a9877501.jpg"
+      },
+      {
+        "title": "旅顺203樱花园",
+        "price": "￥218",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1804/a2/a2a3dd4f0bf42f4da3.img.jpg_150x150_e9128a33.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "price": "￥60",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_150x150_f3152ca6.jpg"
+      }
+    ],
+    "topIcon": [
+      "http://img1.qunarzz.com/piao/fusion/1710/ab/159673b63e6ca702.png",
+      "http://img1.qunarzz.com/piao/fusion/1710/2d/36d0c4adaebbbc02.png",
+      "http://img1.qunarzz.com/piao/fusion/1710/67/edc47ffef9e96b02.png"
+    ],
+    "itemList": [
+      {
+        "title": "大连森林动物园",
+        "start": 4,
+        "comment_num": 11175,
+        "price": 58,
+        "address": "西岗区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_200x200_85298361.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "start": 5,
+        "comment_num": 20645,
+        "price": 25,
+        "address": "沙河口区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_200x200_4ab5da75.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "start": 5,
+        "comment_num": 15362,
+        "price": 60,
+        "address": "金石滩旅...",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_200x200_742cb84f.jpg"
+      },
+      {
+        "title": "大连森林动物园",
+        "start": 4,
+        "comment_num": 11175,
+        "price": 58,
+        "address": "西岗区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_200x200_85298361.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "start": 5,
+        "comment_num": 20645,
+        "price": 25,
+        "address": "沙河口区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_200x200_4ab5da75.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "start": 5,
+        "comment_num": 15362,
+        "price": 60,
+        "address": "金石滩旅...",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_200x200_742cb84f.jpg"
+      },
+      {
+        "title": "大连森林动物园",
+        "start": 4,
+        "comment_num": 11175,
+        "price": 58,
+        "address": "西岗区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_200x200_85298361.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "start": 5,
+        "comment_num": 20645,
+        "price": 25,
+        "address": "沙河口区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_200x200_4ab5da75.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "start": 5,
+        "comment_num": 15362,
+        "price": 60,
+        "address": "金石滩旅...",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_200x200_742cb84f.jpg"
+      },
+      {
+        "title": "大连森林动物园",
+        "start": 4,
+        "comment_num": 11175,
+        "price": 58,
+        "address": "西岗区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/57/5729585581b6732fa3.water.jpg_200x200_85298361.jpg"
+      },
+      {
+        "title": "大连圣亚海洋世界",
+        "start": 5,
+        "comment_num": 20645,
+        "price": 25,
+        "address": "沙河口区",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_200x200_4ab5da75.jpg"
+      },
+      {
+        "title": "海昌发现王国",
+        "start": 5,
+        "comment_num": 15362,
+        "price": 60,
+        "address": "金石滩旅...",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/94/944fc059260bd728a3.water.jpg_200x200_742cb84f.jpg"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+        "title": "北京温泉排行榜",
+        "desc": "细数北京温泉，温暖你的冬天"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "北京必游TOP10",
+        "desc": "来北京必去的景点非这些地方莫属"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+        "title": "学生最爱的博物馆",
+        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+        "title": "儿童剧场，孩子的乐园",
+        "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/7f/fa4eb0ca72409d.jpg_r_640x214_2f2a860e.jpg",
+        "title": "大连必游TOP10",
+        "desc": "爱上北方的碧海蓝天"
+      }
+    ]
+  }
+}
