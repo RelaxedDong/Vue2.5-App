@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ApiUrl from '@/config/api_url'
+// import ApiUrl from '@/config/api_url'
 import axios from 'axios'
 import HomeHeader from './components/Header'
 import HomeSwiper from './components/Swiper'
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     getHomeInfo () {
-      axios.get(ApiUrl.api + 'index.json?city=' + this.city)
+      axios.get('/api', {params: {city: this.city}})
         .then(this.handleIndex)
     },
     handleIndex (res) {
