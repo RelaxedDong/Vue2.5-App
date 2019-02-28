@@ -5,7 +5,7 @@
     </div>
     <div ref="wrapper">
     <ul>
-      <router-link to="/detail" tag="li" class="item" v-for="item in hotList" :key="item.id">
+      <router-link  tag="li" class="item" v-for="(item,index) in hotList" :key="item.id" :to="'/detail/' + index">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl" alt="">
         </div>
