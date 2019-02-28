@@ -14,6 +14,7 @@ import CityHeader from './components/Header'
 import CitySearch from './components/Search'
 import CityList from './components/List'
 import CityAlphabet from './components/Alphabet'
+
 export default {
   name: 'City',
   components: {
@@ -28,7 +29,7 @@ export default {
   },
   methods: {
     getCityInfo () {
-      axios.get(ApiUrl.api + 'city.json')
+      axios.get(ApiUrl.api + 'city.json?city=')
         .then(this.handleGetCityInfoSucc)
     },
     handleGetCityInfoSucc (res) {

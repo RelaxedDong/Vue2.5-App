@@ -16,6 +16,7 @@ import HomeSwiper from './components/Swiper'
 import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
 import HomeWeekend from './components/Weekend'
+import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
@@ -28,9 +29,19 @@ export default {
       weekendList: []
     }
   },
+  computed: mapState([
+    'city'
+  ]),
+  activated () {
+    // 当页面加载时，进行判断，城市发生了改变
+    if (this.LastCity !== this.city) {
+      this.getHomeInfo()
+      this.LastCity = this.city
+    }
+  },
   methods: {
-    getBanner () {
-      axios.get(ApiUrl.api + 'index.json')
+    getHomeInfo () {
+      axios.get(ApiUrl.api + 'index.json?city=' + this.city)
         .then(this.handleIndex)
     },
     handleIndex (res) {
@@ -44,7 +55,8 @@ export default {
     }
   },
   mounted () {
-    this.getBanner()
+    this.getHomeInfo()
+    this.LastCity = this.city
   }
 }
 </script>
