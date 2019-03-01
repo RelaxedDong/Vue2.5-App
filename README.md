@@ -26,3 +26,5 @@ npm run build
 ## ♥️ 感谢
 
 如果喜欢这个项目，欢迎 Star！
+
+[各个章节 学习笔记 了解一下？](https://www.cnblogs.com/donghaoblogs/tag/Vue2.5%E5%BC%80%E5%8F%91%E5%8E%BB%E5%93%AA%E5%84%BF%E7%BD%91App/)
