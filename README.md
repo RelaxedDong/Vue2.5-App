@@ -22,7 +22,7 @@ npm run dev
 npm run build
 ```
 ## 项目截图
-![项目截图](https://img-blog.csdnimg.cn/20190301210421231.gif)
+![项目截图](https://img-blog.csdnimg.cn/20190301210421231.gif =150x200)
 ## ♥️ 感谢
 
 如果喜欢这个项目，欢迎 Star！
