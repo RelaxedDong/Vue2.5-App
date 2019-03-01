@@ -10,7 +10,7 @@
  **项目运行**
 ```bash
 # 克隆到本地
-git clone https://github.com/KieSun/Vue-StudyMaps.git
+git clone https://github.com/1417766861/Vue2.5-App.git
 
 # 安装依赖
 npm install
